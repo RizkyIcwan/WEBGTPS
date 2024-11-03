@@ -83,8 +83,9 @@ a.navbar-brand .fa-globe:hover
   margin: 0 auto;
   max-width: 996px;
 }
+
 .splash {
-  background:url("/assets/img/Nebula.png");
+  background:url("/assets/img/Meteor_Shower.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,6 +110,7 @@ a.navbar-brand .fa-globe:hover
   font-size: 40px;
   margin-bottom: .15em;
   text-align: center;
+  color: #fff;
 }
 
 .splash .lead, .splash .continue {
