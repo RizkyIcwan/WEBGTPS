@@ -110,7 +110,7 @@ a.navbar-brand .fa-globe:hover
   font-size: 40px;
   margin-bottom: .15em;
   text-align: center;
-  color: #fff;
+  color: #00ff00;
 }
 
 .splash .lead, .splash .continue {
@@ -175,6 +175,8 @@ h1.intro-text
       animation: blink 1s infinite;
 }
 
+
+/* Bagian WELCOME */
 .splash .continue {
   font-size: 3em;
   display:block;
