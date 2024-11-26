@@ -6,6 +6,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -17,7 +19,11 @@ main {
 }
 
 #menu {
-  background-color: #ffffff79;
+  background-color: #ffffff86;
+  transition: top 0.3s;
+  position: fixed; /* Memastikan navbar tetap di atas */
+  width: 100%; /* Memastikan navbar memenuhi lebar layar */
+  z-index: 1000; /* Menjaga navbar di atas konten lainnya */
 }
 
 .starter-template {
@@ -126,7 +132,7 @@ a.navbar-brand .fa-globe:hover {
   font-size: 40px;
   margin-bottom: .15em;
   text-align: center;
-  color: #00ff00;
+  color: #ffffff;
 }
 
 .splash .lead,
@@ -805,6 +811,7 @@ body {
   color: white;
   background: rgba(255, 255, 255, .1);
   border: 1px solid rgba(255, 255, 255, .6);
+  text-decoration: none;
 }
 
 .tab-content {
@@ -813,6 +820,7 @@ body {
   display: none;
   padding: 1.5rem;
   color: #4a5666;
+  border-radius: 20px;
 }
 
 .show {
